@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Cursed.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2C66DEFD-992B-4BE2-93AF-D237138D4224}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Cursed.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CursedEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{88B9FE3E-8F35-460A-98ED-2D964BB04204}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Cursed">
+      <UniqueIdentifier>{EF15126D-E6A2-48B8-A17F-88EF94D3CB84}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Cursed\BaseCharacter.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\BaseCharacter.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\BaseItem.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\BaseItem.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Cursed\Cursed.Build.cs">
+      <Filter>Source\Cursed</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Cursed\Cursed.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\Cursed.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\CursedGameModeBase.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\CursedGameModeBase.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\InteractInterface.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\InteractInterface.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\InteractWidget.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\InteractWidget.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\InventoryComponent.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\InventoryComponent.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Cursed\ItemDetails.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\MasterItem.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\MasterItem.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cursed\Pickup.cpp">
+      <Filter>Source\Cursed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cursed\Pickup.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Cursed\SlotStructure.h">
+      <Filter>Source\Cursed</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

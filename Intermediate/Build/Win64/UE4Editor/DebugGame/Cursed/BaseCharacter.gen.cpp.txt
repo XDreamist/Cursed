@@ -1,0 +1,11 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\DebugGame\Cursed\Definitions.Cursed.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\Projects\Cursed\Source\Cursed/Character/BaseCharacter.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\BaseCharacter.generated.h

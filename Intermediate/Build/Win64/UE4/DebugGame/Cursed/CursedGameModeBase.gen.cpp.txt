@@ -1,0 +1,9 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4\DebugGame\Cursed\Definitions.Cursed.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\Projects\Cursed\Source\Cursed/CursedGameModeBase.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\ServerStatReplicator.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameModeBase.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4\Inc\Cursed\CursedGameModeBase.generated.h

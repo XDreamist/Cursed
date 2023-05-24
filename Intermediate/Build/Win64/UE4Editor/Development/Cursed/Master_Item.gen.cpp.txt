@@ -1,0 +1,5 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Development\Cursed\Definitions.Cursed.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\Projects\Cursed\Source\Cursed/Master_Item.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\Master_Item.generated.h

@@ -1,0 +1,15 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\DebugGame\Cursed\Definitions.Cursed.h
+F:\Projects\Cursed\Source\Cursed\TP_ThirdPerson\TP_ThirdPersonGameMode.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\TP_ThirdPersonGameMode.generated.h
+F:\Projects\Cursed\Source\Cursed\TP_ThirdPerson\TP_ThirdPersonCharacter.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\TP_ThirdPersonCharacter.generated.h

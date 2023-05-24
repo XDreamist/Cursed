@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\Projects\\Cursed\\Source\\Cursed\\Cursed.Build.cs",
+		"F:\\Projects\\Cursed\\Source\\Cursed.Target.cs",
+		"F:\\Projects\\Cursed\\Source\\CursedEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

@@ -1,0 +1,2 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\DebugGame\Cursed\Definitions.Cursed.h
+F:\Projects\Cursed\Source\Cursed\Cursed.h

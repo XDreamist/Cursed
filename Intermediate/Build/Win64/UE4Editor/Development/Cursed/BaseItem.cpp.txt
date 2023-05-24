@@ -1,0 +1,5 @@
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Development\Cursed\Definitions.Cursed.h
+F:\Projects\Cursed\Source\Cursed\BaseItem.h
+F:\Projects\Cursed\Source\Cursed\ItemDetails.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\ItemDetails.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\BaseItem.generated.h
