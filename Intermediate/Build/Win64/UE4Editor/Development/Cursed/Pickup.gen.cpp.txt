@@ -107,8 +107,8 @@ F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generate
 F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
 F:\Projects\Cursed\Source\Cursed\InteractWidget.h
 F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\InteractWidget.generated.h
-F:\Projects\Cursed\Source\Cursed\MasterItem.h
+F:\Projects\Cursed\Source\Cursed\BaseItem.h
 F:\Projects\Cursed\Source\Cursed\ItemDetails.h
 F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\ItemDetails.generated.h
-F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\MasterItem.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\BaseItem.generated.h
 F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\Pickup.generated.h

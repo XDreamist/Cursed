@@ -43,24 +43,20 @@ void APickup::SetDetails()
 		SpawnTransform.SetRotation(FQuat(0.0f, 0.0f, 0.0f, 0.0f));
 		SpawnTransform.SetScale3D(FVector::ZeroVector);
 
-		//UMasterItem* ItemRef = GetWorld()->SpawnActor<UMasterItem>(Item, SpawnTransform);
-		UMasterItem* ItemRef = Item.GetDefaultObject();
+		UBaseItem* ItemRef = Item.GetDefaultObject();
 
 		if (ItemRef)
 		{
-			UStaticMeshComponent* Tmp = nullptr;
-			//Tmp = ItemToSpawn->FindComponentByClass<UStaticMeshComponent>();
-			Tmp = ItemRef->Mesh;
 			Details = ItemRef->Details;
-			StaticMesh->SetStaticMesh(Tmp->GetStaticMesh());
+			StaticMesh->SetStaticMesh(ItemRef->Mesh);
 			//StaticMesh->SetMaterial(0, Tmp->GetMaterial(0));
 			//StaticMesh->SetRelativeTransform(Tmp->GetRelativeTransform());
 			//StaticMesh->SetMassOverrideInKg(NAME_None, 300.0f, true);
 			StaticMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel1, ECollisionResponse::ECR_Block);
 			StaticMesh->SetSimulatePhysics(true);
 		}
-
 		ItemRef = nullptr;
+		delete ItemRef;
 	}
 
 	else
@@ -73,11 +69,12 @@ void APickup::SetDetails()
 void APickup::OnInteract(AActor* Causer)
 {
 	UInventoryComponent* InventoryComponent = nullptr;
-	UActorComponent* Comp = Causer->GetComponentByClass(TSubclassOf<UInventoryComponent>());
+	UActorComponent* Comp = Causer->GetComponentByClass(UInventoryComponent::StaticClass());
 	InventoryComponent = Cast<UInventoryComponent>(Comp);
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::White, Details.Name);
-	InventoryComponent->AddToInventory(Item, 1);
-	Destroy();
+	if (InventoryComponent->AddToInventory(Item, 1))
+	{
+		Destroy();
+	}
 }
 
 // called to Show/Hide Widget

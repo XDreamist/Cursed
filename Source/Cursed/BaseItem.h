@@ -3,34 +3,24 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "ItemDetails.h"
 #include "BaseItem.generated.h"
 
-UCLASS()
-class CURSED_API ABaseItem : public AActor
+UCLASS(Blueprintable)
+class CURSED_API UBaseItem : public UObject
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	ABaseItem();
 
-	UPROPERTY()
-	USceneComponent* Root = nullptr;
+public:
+	UBaseItem();
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FItemDetails Details;
 
-	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* ItemMesh = nullptr;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	UStaticMesh* Mesh; // = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UFUNCTION(/*BlueprintNativeEvent, */BlueprintCallable)
+	virtual void UseItem(class AActor* User);
 
 };

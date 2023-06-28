@@ -2,8 +2,8 @@ F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Development\Cursed\Definit
 F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 F:\Projects\Cursed\Source\Cursed/SlotStructure.h
-F:\Projects\Cursed\Source\Cursed\MasterItem.h
+F:\Projects\Cursed\Source\Cursed\BaseItem.h
 F:\Projects\Cursed\Source\Cursed\ItemDetails.h
 F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\ItemDetails.generated.h
-F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\MasterItem.generated.h
+F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\BaseItem.generated.h
 F:\Projects\Cursed\Intermediate\Build\Win64\UE4Editor\Inc\Cursed\SlotStructure.generated.h

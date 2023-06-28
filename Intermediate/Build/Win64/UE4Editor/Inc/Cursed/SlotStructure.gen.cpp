@@ -16,7 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeSlotStructure() {}
 	CURSED_API UScriptStruct* Z_Construct_UScriptStruct_FSlotStructure();
 	UPackage* Z_Construct_UPackage__Script_Cursed();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	CURSED_API UClass* Z_Construct_UClass_UMasterItem_NoRegister();
+	CURSED_API UClass* Z_Construct_UClass_UBaseItem_NoRegister();
 // End Cross Module References
 class UScriptStruct* FSlotStructure::StaticStruct()
 {
@@ -73,7 +73,7 @@ static struct FScriptStruct_Cursed_StaticRegisterNativesFSlotStructure
 		{ "ModuleRelativePath", "SlotStructure.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSlotStructure, Item), Z_Construct_UClass_UMasterItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSlotStructure, Item), Z_Construct_UClass_UBaseItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Item_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlotStructure_Statics::NewProp_Quantity_MetaData[] = {
 		{ "Category", "SlotStructure" },
@@ -113,7 +113,7 @@ static struct FScriptStruct_Cursed_StaticRegisterNativesFSlotStructure
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSlotStructure_Hash() { return 1308432339U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSlotStructure_Hash() { return 2362618217U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

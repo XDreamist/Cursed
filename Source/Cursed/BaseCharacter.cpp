@@ -46,6 +46,8 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction(TEXT("Dash"), EInputEvent::IE_Pressed, this, &ABaseCharacter::Dash);
+
 	PlayerInputComponent->BindAction(TEXT("Interact"), EInputEvent::IE_Pressed, this, &ABaseCharacter::Interact);
 
 }
@@ -76,6 +78,15 @@ void ABaseCharacter::LookUp(float AxisValue)
 	AddControllerPitchInput(AxisValue);
 }
 
+// Called when Dashing 
+void ABaseCharacter::Dash()
+{
+	//this->SetActorLocation((this->GetActorForwardVector() * 150) + this->GetActorLocation(), true);
+	this->CharacterMovement.MaxWalkSpeed = 1000;
+	this->CharacterMovement.MaxAcceleration = 1000000;
+	UCharacterMovementComponent* CharMove = this->GetCharacterMovement();
+}
+
 // Called to find any Interactibles
 void ABaseCharacter::ITrace()
 {
@@ -91,7 +102,7 @@ void ABaseCharacter::ITrace()
 
 	bool Traced = UKismetSystemLibrary::SphereTraceSingle(GetWorld(), Start, End, 
 		Radius, Interactible, /*Trace Complex:*/false, ActorsToIgnore, EDrawDebugTrace::ForOneFrame, 
-		Hit, /*Ignore Self:*/ true, FLinearColor::Green, FLinearColor::Red, .01f);
+		Hit, /*Ignore Self:*/true, FLinearColor::Green, FLinearColor::Red, 0.01f);
 
 	if (Traced)
 	{
@@ -124,7 +135,6 @@ void ABaseCharacter::Interact()
 {
 	if(TracedActor)
 	{ 
-		//PrintString(TracedActor->GetName());
 		if(Interface)
 		{ 
 			Interface->OnInteract(this);

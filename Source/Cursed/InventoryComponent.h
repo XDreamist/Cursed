@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "SlotStructure.h"
+#include "BaseItem.h"
 #include "InventoryComponent.generated.h"
 
 
@@ -18,16 +18,19 @@ public:
 	UInventoryComponent();
 
 	UPROPERTY(EditAnywhere)
+	FString Name = FString(TEXT("INVENTORY"));
+
+	UPROPERTY(EditAnywhere)
 	float CurrentCarryWeight;
 
 	UPROPERTY(EditAnywhere)
 	float MaxCarryWeight = 50.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FSlotStructure> Items;
+	TMap<TSubclassOf<UBaseItem>, int32> Items;
 
 	UFUNCTION(BlueprintCallable)
-	bool AddToInventory(TSubclassOf<UMasterItem> Item, int32 Quantity);
+	bool AddToInventory(TSubclassOf<UBaseItem> Item, int32 Quantity);
 
 protected:
 	// Called when the game starts

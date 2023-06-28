@@ -7,7 +7,7 @@
 #include "InteractInterface.h"             //
 #include "Components/WidgetComponent.h"    //
 #include "InteractWidget.h"
-#include "MasterItem.h"                    // 
+#include "BaseItem.h"                    // 
 #include "Pickup.generated.h"
 
 UCLASS()
@@ -25,7 +25,7 @@ public:
 	UStaticMeshComponent* Sphere = nullptr;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<UMasterItem> Item = nullptr;
+	TSubclassOf<UBaseItem> Item;
 
 	UStaticMeshComponent* StaticMesh = nullptr;
 

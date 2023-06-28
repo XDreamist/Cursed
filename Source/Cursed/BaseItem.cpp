@@ -3,30 +3,12 @@
 
 #include "BaseItem.h"
 
-// Sets default values
-ABaseItem::ABaseItem()
+UBaseItem::UBaseItem()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
-	Root = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
-	RootComponent = Root;
-	ItemMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	ItemMesh->SetupAttachment(Root);
 
 }
 
-// Called when the game starts or when spawned
-void ABaseItem::BeginPlay()
+void UBaseItem::UseItem(class AActor* User)
 {
-	Super::BeginPlay();
-	
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::White, TEXT("Item Used"));
 }
-
-// Called every frame
-void ABaseItem::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

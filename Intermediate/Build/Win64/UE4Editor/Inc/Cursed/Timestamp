@@ -1,10 +1,9 @@
 F:\Projects\Cursed\Source\Cursed\BaseCharacter.h
-F:\Projects\Cursed\Source\Cursed\BaseItem.h
 F:\Projects\Cursed\Source\Cursed\CursedGameModeBase.h
 F:\Projects\Cursed\Source\Cursed\InteractInterface.h
-F:\Projects\Cursed\Source\Cursed\InteractWidget.h
 F:\Projects\Cursed\Source\Cursed\InventoryComponent.h
 F:\Projects\Cursed\Source\Cursed\ItemDetails.h
-F:\Projects\Cursed\Source\Cursed\MasterItem.h
-F:\Projects\Cursed\Source\Cursed\SlotStructure.h
 F:\Projects\Cursed\Source\Cursed\Pickup.h
+F:\Projects\Cursed\Source\Cursed\SlotStructure.h
+F:\Projects\Cursed\Source\Cursed\InteractWidget.h
+F:\Projects\Cursed\Source\Cursed\BaseItem.h

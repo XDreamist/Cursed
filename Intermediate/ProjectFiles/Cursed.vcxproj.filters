@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\Cursed.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2C66DEFD-992B-4BE2-93AF-D237138D4224}</UniqueIdentifier>
+      <UniqueIdentifier>{0389BC76-4A8E-4035-8A1C-F98004547753}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cursed.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{88B9FE3E-8F35-460A-98ED-2D964BB04204}</UniqueIdentifier>
+      <UniqueIdentifier>{9831579C-AE34-4019-A688-4241976EB6A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cursed">
-      <UniqueIdentifier>{EF15126D-E6A2-48B8-A17F-88EF94D3CB84}</UniqueIdentifier>
+      <UniqueIdentifier>{6E9BA2EC-10E0-4424-A4F8-A87753153B00}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Cursed\BaseCharacter.cpp">
       <Filter>Source\Cursed</Filter>
@@ -77,12 +77,6 @@
       <Filter>Source\Cursed</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Cursed\ItemDetails.h">
-      <Filter>Source\Cursed</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Cursed\MasterItem.cpp">
-      <Filter>Source\Cursed</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Cursed\MasterItem.h">
       <Filter>Source\Cursed</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Cursed\Pickup.cpp">
