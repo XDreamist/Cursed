@@ -2,6 +2,8 @@
 
 
 #include "BaseCharacter.h"
+
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Kismet/KismetMathLibrary.h"
 
@@ -82,8 +84,8 @@ void ABaseCharacter::LookUp(float AxisValue)
 void ABaseCharacter::Dash()
 {
 	//this->SetActorLocation((this->GetActorForwardVector() * 150) + this->GetActorLocation(), true);
-	this->CharacterMovement.MaxWalkSpeed = 1000;
-	this->CharacterMovement.MaxAcceleration = 1000000;
+	this->GetCharacterMovement()->MaxWalkSpeed = 1000;
+	this->GetCharacterMovement()->MaxAcceleration = 1000000;
 	UCharacterMovementComponent* CharMove = this->GetCharacterMovement();
 }
 

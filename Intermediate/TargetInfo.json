@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Cursed",
-			"Path": "F:\\Projects\\Cursed\\Source\\Cursed.Target.cs",
+			"Path": "..\\Source\\Cursed.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CursedEditor",
-			"Path": "F:\\Projects\\Cursed\\Source\\CursedEditor.Target.cs",
+			"Path": "..\\Source\\CursedEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

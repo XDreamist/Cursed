@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Cursed",
+			"Path": "..\\Source\\Cursed.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CursedEditor",
+			"Path": "..\\Source\\CursedEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
